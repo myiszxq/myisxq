@@ -1,0 +1,43 @@
+<!doctype html>
+<html ng-app="myapp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+</head>
+<body>
+	<div ng-controller="myCtrl">
+		{{name | behind}};
+		
+			{{str | lowercase}}
+			{{str | uppercase}}
+		{{name|bpk}}
+	</div>
+	<div ng-controller = "my">
+			<!-- 先判断flag是true或者false 如果为false 则内容不显示 -->	
+		<div ng-if="flag">{{flag}}</div>
+	</div>
+	<script type="text/javascript">
+		var app = angular.module("myapp",[]);
+		app.controller('myCtrl',["$scope",function($scope){
+			$scope.name = "zhang";
+			$scope.str = "AAsssd";
+			
+		}]) 
+		app.controller('my',["$scope",function($scope){
+			$scope.flag = "";
+		}])
+		//自定义过滤器
+		app.filter("behind",function(){
+			return function(element){
+				return element+'>>'
+			}
+		})
+		app.filter("bpk",function(){
+			return function(element){
+				return element.substr(0,2)+ element.substr(4,5) + "000";
+			}
+		})
+	</script>
+</body>
+</html>

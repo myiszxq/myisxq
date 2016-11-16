@@ -1,0 +1,110 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+html{
+	font-size: 100px;
+}
+.mod-city-header{
+	text-align: center;
+    background-color: #e8e8e8;
+    height: 48px;
+    line-height: 48px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 18px;
+    color: #1e1e1e;
+    z-index: 99;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.mod-city-return{
+	position: absolute;
+    left: 10px;
+    font-size: 14px;
+}
+.mod-city-return a{
+    color: #969696;
+	
+}
+.mod-city-return i{
+	display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid #969696;
+    border-top: 2px solid #969696;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mod-city-ul{
+	z-index: 99;
+    position: fixed;
+    right: 0;
+    width: 20px;
+    font-size: 12px;
+    text-align: center;
+    color: #62ab00;
+    top: 48px;
+}
+.mod-city-main{
+	border-top: 48px solid transparent;
+    margin-right: 20px;
+}
+.mod-city-main-n1{
+	height: 50px;
+    background-color: #e4e4e7;
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+.mod-city-main-n{
+	background-color: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+    line-height: 34px;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: #969696;
+}
+.mod-city-main-i{
+	display: inline-block;
+    width: 2px;
+    height: 8px;
+    margin-top: 6px;
+    margin-right: 6px;
+    background-color: #ccc;
+    vertical-align: middle;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mod-city-main-i:before{
+	border: solid 1px #ccc;
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: -5px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.mod-city-list div{
+	padding-left: 20px;
+	font-size: 15px;
+	 margin-right: 20px;
+}
+.mod-city-list-h{
+	background-color: #f7f7f7;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.mod-city-list-l ul li{
+	height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #dcdcdc;
+}

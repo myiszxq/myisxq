@@ -1,0 +1,83 @@
+<!doctype html>
+<html ng-app="myapp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+</head>
+<body>
+	<div ng-controller="my">
+		{{name}}
+	</div>
+	<div ng-controller="cl">
+		<input type="text" ng-model="w">
+		<ul>
+			<li ng-repeat="x in arr| filter:w| orderBy:'name'">
+				<p> {{x.name}} </p>
+				<p> {{x.age|s}} </p>
+			</li>
+		</ul>
+	</div>
+	<div ng-controller="yilai">
+		
+		{{tcname}}
+		{{number}}
+		{{number1}}
+		{{number2}}
+		{{number3}}
+	</div>
+	<script type="text/javascript">
+		var app =  angular.module("myapp",[]);
+		app.controller("my",["$scope","$timeout",function($scope,$timeout){
+			$scope.name = "ss";
+			$timeout(function() {
+				$scope.name = "aa";
+			},2000);
+		}])
+		app.controller("cl",["$scope","$http",function($scope,$http){
+			$http.get("./data.json").success(function(res){
+				$scope.arr = res;
+			})
+		}])
+		app.filter('s',function(){
+			return function(ele){
+				if(ele>20){
+					return "青年";
+				}else if(ele>30){
+					return  "壮年";
+				}else if(ele>60){
+					return  "暮年";
+				}
+			}
+		})
+		app.controller("yilai",["$scope","defaultValue",'math','servise',function($scope,defaultValue,math,servise){
+			$scope.tcname="呵呵真不错";
+			$scope.number = defaultValue;
+			$scope.number1 = math.add(2,3);
+			$scope.number2 = math.mul(1.23,100);
+			$scope.number3 = servise.add(4,3);
+		}])
+
+		//注入的五种方式
+		//value: 就相当与定义了一个变量 参数为变量名和变量值
+		app.value('defaultValue',10);
+		//factory: 通过返回一个对象的方式 同来定义一个或多个函数
+		app.factory('math',function(){
+			return{
+				add:function(x,y){
+					return x+y;
+				},
+				mul:function(x,y){
+					return x*y;
+				}
+			}
+		})
+		//servise：使用的时候直接使用this
+		app.service('servise',function(){
+			this.add = function(x,y){
+				return x+y
+			}
+		})
+	</script>
+</body>
+</html>

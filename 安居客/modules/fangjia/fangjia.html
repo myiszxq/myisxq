@@ -1,0 +1,58 @@
+<div class="fj">
+	<header>
+		<a href="#home">
+			 <div class="an"></div>
+		</a>
+		<a href="#city" class="god">
+			<span>北京</span>
+			<p class="xf">></p>	
+		</a>
+		<a href="#mine">
+			<div class="user"></div>
+		</a>
+		<a href="">
+			<div class="collect">★</div>
+		</a>
+	</header>
+	<div class="mo1">
+		<a href="#home">
+			<span>< 首页</span>
+		</a>
+		<p>房价</p>
+	</div>
+	<div class="mo2">
+	<a class="gu" ui-sref=".ban"><p >区域板块</p></a>
+	<a ui-sref=".qu"><p>小区</p></a>
+		
+		
+	</div>
+	<div ui-view=""></div>
+		<div class="mo34">
+			<p><span>北京推荐二手房</span></p>
+			<ul>
+			<li ng-repeat="q in arr">
+				<img src={{q.img}}>
+				<h3>{{q.name}}</h3>
+				<p>{{q.site}} </p>
+				<p>{{q.case}} </p>
+				<span class="aa">{{q.price}} </span>
+			</li>
+			</ul>
+			<p class="tj">更多推荐 ></p>
+		</div>
+	<div class="mo35">
+		<p>北京各区域二手房 <span>></span></p>
+		<p>北京二手房房价 <span>></span></p>
+		<p>热门城市二手房 <span>></span></p>
+	</div>
+	<div class="mo36">
+		<p>北京二手房间>朝阳二手房</p>
+	</div>
+	<div class="footer">
+		<p>小区大全|网站地图|历史浏览|最新房源|房贷计算器</p>
+		<p>手机版|电脑版|客户端|意见反馈|免责声明</p>
+		<span>Copyright © 2007-2014 Anjuke.com 沪B2-20090008</span>
+		<div class="jia"></div>
+	</div>
+	<div class="cm"></div>
+</div>

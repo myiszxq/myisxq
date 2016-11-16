@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app="myapp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+</head>
+<body>
+<!-- 	<div>{{2+3}}</div>
+<div ng-init="a=2;b=3">{{a*b}}</div>
+<div ng-init="obj={f:2,l:3}">
+	{{obj.l}}
+</div>
+<div ng-init="arr=['li','zhang']">
+	{{arr[0]}}
+</div>
+<div ng-init="name='xiaosong';class='1612'">
+	{{name + "" + class}}
+	<p ng-bind="name + '' + class"></p>
+</div> -->
+	<div ng-controller="my">
+		<p> {{arr[0];arr[1]}} </p>
+		<ul>
+			<li ng-repeat = "x in arr">
+				<p>name{{x}} </p>
+			</li>
+		</ul>
+	</div>
+	<script >
+	//$scope是作用域
+		var app = angular.module("myapp",[]);
+		/*app.controller('myCtrl',function($scope){
+			$scope.number = 99;
+			$scope.name = "ss";
+		})*/
+		app.controller("my",['$scope',function($scope){
+			$scope.arr = [{name:'s',age:22,tel:1111,qq:11543},{name:"z",age:11,tel:2222,qq:09260}]
+		}])
+	</script>
+</body>
+</html>

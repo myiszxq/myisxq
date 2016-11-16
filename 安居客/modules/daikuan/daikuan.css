@@ -1,0 +1,54 @@
+*{margin:0 ;padding:0;font-size:.12rem;box-sizing: border-box;}
+a{color: #999;text-decoration: none;}
+.modul_daikuan{width:100%;background:#ececec;}
+.modul_daikuan .nav{width:100%;height:.45rem;background: #62ab00;font-size:.16rem;
+  color: white; line-height:.45rem;display: flex;} 
+  .modul_daikuan .nav_3 {width: 100%;height:1.22rem;display:flex;background:white;}
+  .modul_daikuan .nav_3 >div{width: 25%;margin:auto;}
+   .modul_daikuan .nav_3 >div p{text-align: center;}
+   .modul_daikuan .nav_3 >div p:last-child{color:#999;font-size:.12rem;padding-left:1px;}
+   .modul_daikuan .nav_3 >div:last-child{background:none;}
+   .modul_daikuan .nav_3 >div img{margin:auto;margin-left:.21rem;}
+  .modul_daikuan .nav a{font-size: .16rem;color:white;display: inline-block;} 
+  .modul_daikuan .nav a:first-child{transform:scale(1.5,1.5); font-weight:700; margin: 0 2%;}
+  .modul_daikuan .nav a:nth-child(3){margin-left:.77rem;}
+  .modul_daikuan .nav a:nth-child(4){display: none;transform: rotate(90deg);margin-left: 2%;}
+  .modul_daikuan .nav a:nth-child(5){margin-left: 31%;}
+  .modul_daikuan .nav a:nth-child(5) img{vertical-align: middle;}
+  .modul_daikuan .ershou_daohang{width:100%;padding:0 .1rem .1rem; 
+    display:flex;height:.4rem;align-items:center;background:#ececec;}
+    .modul_daikuan .ershou_daohang >div{padding-left: .1rem;width:100%;height:100%;background:white;display:flex;align-items:center;}
+    .modul_daikuan .ershou_daohang input{border: none;}
+    .modul_daikuan .ershou_daohang i{width:1px ;height:.2rem;background:#d9d9d9;display:inline-block;float:right;}
+    .modul_daikuan .img{width:100%;height:.5rem;padding:0 .1rem;}
+    .modul_daikuan .img img{height:100%;width:100%;}
+   .modul_daikuan .list .listshow{width: 100%;height:.95rem;padding:.1rem;display:flex;
+   	border-top:1px solid #999;justify-content:space-between;}
+    .modul_daikuan .list .listshow >img{width:1rem;height:.75rem;}
+    .modul_daikuan .list .listshow .inner_list{height: .75rem;width:1.9rem;position:relative;}
+    .modul_daikuan .list .listshow .inner_list >span{color:red;position:absolute;bottom:0;right:0;font-size:.18rem;}
+    .modul_daikuan .list .listshow .inner_list >p:nth-child(1){line-height:.2rem;height:.2rem;
+    	font-weight:700; white-space: nowrap;text-overflow:ellipsis; overflow: hidden;}
+    .modul_daikuan .list .listshow .inner_list >p:nth-child(2){line-height:.2rem;height:.2rem;font-weight:700;
+    white-space: nowrap;text-overflow:ellipsis; overflow: hidden;}
+    .modul_daikuan .list .listshow .inner_list >p{overflow: hidden;}
+    .modul_daikuan .xiangqing .c_1{display: flex;width:100%;margin-top:.1rem;background:white;}
+    .modul_daikuan .xiangqing .c_1 >div:nth-child(1){width:22%;text-align: center;}
+    .modul_daikuan .xiangqing .c_1 >div:nth-child(1) i{margin-top:.05rem;background:#eee;width: 1px;height:.2rem;float:right;}
+    .modul_daikuan .xiangqing .c_1 >div:nth-child(2){width:78%;vertical-align: middle;}
+    .modul_daikuan .xiangqing .c_1 >div:nth-child(2) a{float: right;}
+    .modul_daikuan .xiangqing .c_1 >div span{margin-top: 6px; font-size: .14rem;
+    display: inline-block;  }
+    .modul_daikuan .xiangqing .c_1 i{width:2px;height:.1rem;background:#62ab00;margin:auto 0;margin-right:5px;}
+    .modul_daikuan .xiangqing .c_1 >div:nth-child(2) span{margin-left:.3rem;font-size: .14rem;}
+    .modul_daikuan .xiangqing .c_2{margin:1px 0;display: flex;width:100%;height:.75rem;background:white;}
+    .modul_daikuan .xiangqing .c_2 p{text-align:left;}
+    .modul_daikuan .xiangqing .c_2 >div:nth-child(1) >div{width:70%;}
+    .modul_daikuan .xiangqing .c_2 >div:nth-child(2){display:flex;height:.75rem;width:40%;align-content:center;flex-wrap: wrap;
+     position:relative;}
+    .modul_daikuan .xiangqing .c_2 >div:nth-child(2) p{height:.2rem;width:100%;}
+    .modul_daikuan .xiangqing .c_2 >div:nth-child(1){display:flex;height:.75rem;width:60%;align-items:center;}
+    .modul_daikuan .xiangqing .c_2 >div:nth-child(1) >img{margin:auto;width:.35rem;height:.35rem;}
+    .modul_daikuan .xiangqing .c_2 >div:nth-child(2) span{padding:2px;position:absolute;top:0;right:0;background:#62ab00;color:white;}
+    .modul_daikuan .xiangqing .c_2 >div:nth-child(1){background:url(../images/tiao1.png) no-repeat right center;}
+    .modul_daikuan .xiangqing .c_2 >div:nth-child(2) >p{text-align: center;}

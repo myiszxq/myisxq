@@ -1,0 +1,205 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+.mod-detail{
+	position: relative;
+    overflow: hidden;
+    background: #f1f1f1;
+}
+.detail-a{
+	z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.detail-a:before{
+	content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.detail-a:after{
+	content: '';
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-left: solid 2px #fff;
+    border-bottom: solid 2px #fff;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 18px 0 0 21px;
+}
+.detail-img{
+	position: relative;
+    overflow: hidden;
+}
+.detail-img{
+	width: 100%;
+	height: 271px;
+}
+.swiper-container{
+	position: relative;
+	height: 271px;
+	width: 100%;
+}
+.swiper-wrapper{
+	overflow: hidden;
+    height: 271px;
+    width: 2075px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+.swiper-slide{
+	width: 20%;
+	text-align: center;
+	position: relative;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+.swiper-slide img{
+	margin: 0 auto;
+    height: 271px;
+}
+.detail-local{
+	background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 14px 15px 13px 15px;
+    position: relative;
+}
+.detail-local h1{
+	font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    text-overflow: ellipsis;
+}
+
+.detail-local p{
+	-webkit-box-flex: 1;
+    font-size: 15px;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 15px;
+    max-height: 44px;
+    line-height: 22px;
+}
+.detail-local a{
+	display: block;
+    width: 16px;
+    height: 20px;
+    background: url("//pages.anjukestatic.com/usersite/touch/img/global/7/comm-ico-1.2.png") no-repeat -188px 0;
+    background-size: 230px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+}
+.detail-intro{
+	background-color: #fff;
+    padding: 10px 15px 0 15px;
+    font-size: 15px;
+    line-height: 28px;
+}
+.detail-intro ul li:first-of-type span{
+	    color: #e54c00;
+}
+.detail-intro ul li:first-of-type span em{
+	font-size: 24px;
+}
+.detail-intro ul li:first-of-type a{
+	 color: #62ab00;
+}
+.detail-intro ul li:last-of-type{
+	text-align: center;
+	color: #62ab00;
+}
+.detail-huan{
+	 color: #e54c00;
+}
+.detail-select{
+	margin-top: 10px;
+    background-color: #fff;
+    padding-top: 15px;
+}
+.detail-select h2{
+	font-size: 15px;
+    font-weight: bold;
+    border-left: 3px solid #60a410;
+    padding-left: 12px;
+}
+.detail-nav{
+	width: 100%;
+	margin-top: 20px;
+}
+.detail-nav ul{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.detail-nav li{
+	text-align: center;
+	font-size: 14px;
+	width: 25%;
+}
+.detail-house{
+	padding-left: 15px;
+	background: #fff;
+}
+.detail-house a{
+	display: -webkit-box;
+    -webkit-box-pack: center;
+    padding: 15px 15px 15px 0;
+    border-top: 1px solid #f4f4f4;
+}
+.detail-house a img{
+	width: 107px;
+    height: 78px;
+    margin-right: 10px;
+}
+.house-info{
+	margin-top: 2px;
+   
+}
+.detail-house a{
+	 position: relative;
+	 width: 100%;
+}
+.house-info h3{
+	font-weight: bold;
+    font-size: 15px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   width: 80%;
+}
+.house-info p{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    margin-top: 10px;
+    width: 80%;
+}
+.house-info p span{
+	color: #e54b00;
+    font-size: 14px;
+    text-align: right;
+    position: absolute;
+    top: 64px;
+    right: 40px;
+}
+.house-info p span em{
+	font-size: 18px;
+}

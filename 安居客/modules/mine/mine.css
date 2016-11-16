@@ -1,0 +1,136 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+.mod-mine-header{
+	height: 46px;
+    line-height: 46px;
+    background: #62ab00;
+    color: #fff;
+    position: relative;
+}
+.mod-mine-header a{
+	color: #fff;
+    line-height: 46px;
+    font-size: 0.14rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 20px;
+    
+}
+.mod-mine-header a:before{
+	display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto -10px;
+    content: '';
+    border: #fff solid;
+    border-width: 2px 0 0 2px;
+    width: 13px;
+    height: 13px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mine-header-m{
+	height: 118px;
+    background: #62ab00;
+    color: #fff;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+}
+.mine-header-m p:first-of-type{
+	font-size: 0.14rem;
+}
+.mine-header-m p:first-of-type img{
+	height: 65px;
+    width: 65px;
+    border-radius: 100%;
+}
+.mine-header-m p:last-of-type{
+    font-size: 0.14rem;
+    margin-top: 10px;
+    position: relative;
+    color: #fff;
+}
+.mine-li a{
+	display: -webkit-box;
+    margin: 0 10px;
+    line-height: 46px;
+    font-size: 0.15rem;
+    color: #3b3b3b;
+    position: relative;
+    -webkit-box-align: center;
+}
+.mine-li a:after{
+	display: block;
+    content: '';
+    height: 7px;
+    width: 7px;
+    border: 2px solid #ccc;
+    border-width: 0 1px 1px 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 2px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.mine-li span{
+    position: relative;
+    height: 16px;
+    width: 16px;
+    display: block;
+    margin-right: 10px;
+    background: url("//pages.anjukestatic.com/usersite/touch/img/user/user_login2.png") no-repeat;
+    background-size: 140px 140px;
+	background-position: -40px -120px;
+}
+.mine-li-k{
+	border-bottom: 10px #f1f1f1 solid;
+}
+.mine-ul li:nth-of-type(2) span{
+	background-position: -60px -120px;
+}
+.mine-ul li:nth-of-type(3) span{
+	background-position: -80px -120px;
+}
+.mod-mine .mine-ul>li:nth-of-type(4) span{
+	    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAADVUlEQVRYhc3XW4ydUxTA8V/HqHGqJjTpg2rxQBOJS2h4GGrSUZJiXKJiJC4PMkWDFyTioSMhJBWJRJjQpyERl0RcSoQxrVIPatwlYjJ1icskSpgSNWU8rHUyp6en5jvfjLKSk332/vZa6/+tb+299p7T29trFuSebG+fqaHWGerPwQO4MfvzcDMm/wugA9CPa7OVYBWswZ/7E6gVA+jBfbgtx3filoS6GhP7A2gunsKFuBN9Nc9uxa9Yl1CX4Y9mjLc0CVPB8+gWUelrMKcvn3XjhdT5V4Dm42Wcg7VY/w9z1+MGrEydQ2cb6DC8hg5cg4cL6PSLPOrAq2ljVoAWYggniyQeKGI45TFcnrpDaWtGQEdgM5biEjzdBExVnknd49LWorJAR+NNLMZ52FgCpiobcT6OxJa03RTQ0lQ8XCTx6yUgTsOjIpe60sa5Ipe2pI9CQCeI0LZhBbaWgOnAG2ljUkTo0rTVleObceJ0QMuwCX+hE8MlYIjdegOuxPViA60W3mGclT6G0mdDoDMwiPFU+KQEyDE4VeRIrf43OKSm/ymWp6/B9L0H0Nl4BWMJ83kJGNgm3noJvs2xRaKUPFk3dyShxtL3yirQBXgR2xPmyxIg80SytmIVFuA5saqG8B7uaqD3VUJtF2WmuwVXiPB24js8hJuagLkKP+FHUSJ25vhikY8fpo/aIlsRBfoifG8qRXpa02Cb+J7EntM+DcSCbHfgWfGJx7BbvPUSEZnhhKk/hhyI1aYWzQ4RkN9bcvK46WUu7hCf9If8fSGK6DaM1sG8K0pN0TPROCaKnocqomovrxs/CveKhFwlcmkT3hGRafrUWLTa390Apla6RNLuwoNlYYoCzReb23SyVuzK95eFKQq0DAcVmFfBKWVBqlIEqK3m/waciSf2MffgmQIVSerPsp0QK2oCH4kVtK+5paVRhHbX9Ufxltg7OnKss4HeIL5u0v+u+oFGERoVu2ytXIe3Rc0ZEae/WvlZ3FiLyrHZ7lUzG0XocZEna2rGPhbb+wiOt+eLVJ8VPR0sxCOiTO118GsUoQFRPvpxMT4wdVd/SdSqk7L/vjiI9WicU/XSnjbb08dvRYAmxU1hq7i3rxD500hOz19R+UWUlXXiRf//8jduc7shUW+oFQAAAABJRU5ErkJggg==) center center no-repeat;
+		background-size: 18px 16px;
+	    height: 16px;
+	    width: 16px;
+}
+.mine-ul li:nth-of-type(5) span{
+	background-position: -55px -50px;
+}
+.mine-ul li:nth-of-type(6) span{
+	background-position: -55px -50px;
+}
+.mine-ul li:nth-of-type(7) span{
+	background-position: -120px -60px;
+}
+.mine-ul li:nth-of-type(8) span{
+	background-position: -100px -120px;
+}
+.mine-ul li:nth-of-type(9) span{
+	background-position: -120px -120px;
+}
+.mine-ul li:nth-of-type(10) span{
+	background-position: -120px -100px;
+}
+.mine-re{
+	height: 38px;
+	text-align: center;
+	margin-bottom: 1rem;
+	display: block;
+}
+.mine-re a{
+	font-size: 0.18rem;	
+	display: inline-block;
+	line-height: 36px;
+}
+	
+	
+

@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="myapp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="./lib/angular.min.js"></script>
+</head>
+<body ng-init="number=99">
+<!-- 	<div >
+	
+	{{number}}
+	{{name}}
+	<input  type="text" id="t" ng-model= "number">
+</div> -->
+
+
+
+
+
+	<div ng-controller="myCtrl">
+		{{name}}
+		<input type="text" ng-model="name">
+	</div>
+	<script>
+	var app = angular.module("myapp",[]);
+	app.controller("myCtrl",["$scope",function($scope){
+		$scope.name = "ss";
+		$scope.$watch("name",function(a,b){
+			console.log(a,b)
+
+		})
+	}])
+	</script>
+</body>
+</html>

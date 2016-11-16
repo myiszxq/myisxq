@@ -1,0 +1,78 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": {
+        "list": [
+            {
+                "img": "http://pic1.ajkimg.com/display/hj/25ebb99e14faa83eb190bf207e8810b3/200x150.jpg?t=1",
+                "tittle": "房东缺钱急抛旺铺。年租金13万。现出租给《招商银行》其中一间",
+                "location": "华贸中心商务楼  朝阳-国贸",
+                "price": "120万",
+                "details": "33.19m² 第 1 层"
+            },
+           {
+                "img": "http://pic1.ajkimg.com/display/hj/d8ffb9901bae2b9497150f993f56e3cd/200x150.jpg?t=1",
+                "tittle": "房东急用钱超低总价小铺位，年租金8.6万。现《必胜客》承租2",
+               "location": "西环广场  西城-西直门",
+                "price": "99.76万",
+                "details": "29m² 第 1 层"
+            },
+           {
+                "img": "http://pic1.ajkimg.com/display/hj/c257d956f582b98d8ff14c5578ffcc10/200x150.jpg?t=1",
+                "tittle": "急急急！赛特中心一楼小面积餐饮旺铺急抛！【星巴克】年租9万",
+                "location": "赛特大厦  朝阳-国贸",
+                "price": "90万",
+                "details": "20m² 第 1 层"
+            },
+             {
+                "img": "http://pic1.ajkimg.com/display/hj/25ebb99e14faa83eb190bf207e8810b3/200x150.jpg?t=1",
+                "tittle": "房东缺钱急抛旺铺。年租金13万。现出租给《招商银行》其中一间",
+                "location": "华贸中心商务楼  朝阳-国贸",
+                "price": "120万",
+                "details": "33.19m² 第 1 层"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/display/hj/d8ffb9901bae2b9497150f993f56e3cd/200x150.jpg?t=1",
+                "tittle": "房东急用钱超低总价小铺位，年租金8.6万。现《必胜客》承租2",
+               "location": "西环广场  西城-西直门",
+                "price": "99.76万",
+                "details": "29m² 第 1 层"
+            },
+           {
+                "img": "http://pic1.ajkimg.com/display/hj/c257d956f582b98d8ff14c5578ffcc10/200x150.jpg?t=1",
+                "tittle": "急急急！赛特中心一楼小面积餐饮旺铺急抛！【星巴克】年租9万",
+                "location": "赛特大厦  朝阳-国贸",
+                "price": "90万",
+                "details": "20m² 第 1 层"
+            },
+             {
+                "img": "http://pic1.ajkimg.com/display/hj/25ebb99e14faa83eb190bf207e8810b3/200x150.jpg?t=1",
+                "tittle": "房东缺钱急抛旺铺。年租金13万。现出租给《招商银行》其中一间",
+                "location": "华贸中心商务楼  朝阳-国贸",
+                "price": "120万",
+                "details": "33.19m² 第 1 层"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/display/hj/d8ffb9901bae2b9497150f993f56e3cd/200x150.jpg?t=1",
+                "tittle": "房东急用钱超低总价小铺位，年租金8.6万。现《必胜客》承租2",
+               "location": "西环广场  西城-西直门",
+                "price": "99.76万",
+                "details": "29m² 第 1 层"
+            },
+           {
+                "img": "http://pic1.ajkimg.com/display/hj/c257d956f582b98d8ff14c5578ffcc10/200x150.jpg?t=1",
+                "tittle": "急急急！赛特中心一楼小面积餐饮旺铺急抛！【星巴克】年租9万",
+                "location": "赛特大厦  朝阳-国贸",
+                "price": "90万",
+                "details": "20m² 第 1 层"
+            },
+             {
+                "img": "http://pic1.ajkimg.com/display/hj/25ebb99e14faa83eb190bf207e8810b3/200x150.jpg?t=1",
+                "tittle": "房东缺钱急抛旺铺。年租金13万。现出租给《招商银行》其中一间",
+                "location": "华贸中心商务楼  朝阳-国贸",
+                "price": "120万",
+                "details": "33.19m² 第 1 层"
+            }
+        ]
+    }
+}

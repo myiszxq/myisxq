@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+	<script type="text/javascript" src="lib/angular-ui-router.js"></script>
+</head>
+<body>
+	<div >
+		<a ui-sref="home">home</a>
+		<a ui-sref="store">store</a>
+		<div ui-view=""></div>
+	</div>
+	<script type="text/javascript">
+		var app = angular.module("myApp",['ui.router']);
+		app.config(function($stateProvider,$urlRouterProvider){
+			$urlRouterProvider.otherwise('./home');
+			$stateProvider
+				.state('home',{
+					url:'/home',
+					templateUrl:'home.html',
+					controller:'HomeCtrl'
+				})
+				.state('store',{
+					url:'/store',
+					templateUrl:'store.html',
+					controller:'StoreCtrl'
+				})
+		})
+		app.controller("HomeCtrl",["$scope",function($scope){
+			$scope.arr = [1,2,3,4,5,'s']
+			}]) ;
+		app.controller("StoreCtrl",["$scope",function($scope){
+			$scope.arr = [17,2,3,4,5,'sw']
+			}]) 
+	</script>
+</body>
+</html>

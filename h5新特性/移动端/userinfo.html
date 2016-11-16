@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		body{
+			text-align: center;
+		}
+		#main>div{
+			border:1px solid #ccc;
+			width: 500px;
+			margin: 10px auto;
+			
+		}
+		h3{
+			text-align: center;
+			border-bottom: 1px solid #ccc;
+			color:#666;
+			height: 30px;
+			line-height: 30px
+		}
+		img{
+			float: right;
+			margin-right: 10px;
+			margin-top: 10px;
+		}
+	</style>
+	<script type="text/javascript" src = "js/jquery-1.11.2.js"></script>
+</head>
+<body>
+	军事 ： <input name="军事" type="checkbox" checked = ""><br/>
+	娱乐 ： <input name="娱乐" type="checkbox" checked = ""><br/>
+	社会 ： <input name="社会" type="checkbox" checked = ""><br/>
+	体育 ： <input name="体育" type="checkbox" checked = "">
+	<div id="main">
+		<div>
+			<h3>军事<a href=""><img src="images/chacha.png"></a></h3>
+			<ul>
+				<li><p><a href="" title="">内陆地区见核电项目阿德说的是</a></p></li>
+				<li><p><a href="" title="">撒旦撒撒旦阿斯顿撒旦撒撒旦撒是撒大苏打撒倒萨倒萨撒旦撒旦撒大大撒速度是</a></p></li>
+				<li><p><a href="" title="">撒旦撒撒旦阿斯顿撒旦撒撒旦撒是撒大苏打撒倒萨倒萨撒旦撒旦撒大大撒速度是</a></p></li>
+			</ul>
+		</div>
+		<div>
+			<h3></h3>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul><h3>娱乐<a href=""><img src="images/chacha.png"></a></h3>
+			<ul>
+				<li><p><a href="" title="">内陆地区见核电项目阿德说的是</a></p></li>
+				<li><p><a href="" title="">撒旦撒撒旦阿斯顿撒旦撒撒旦撒是撒大苏打撒倒萨倒萨撒旦撒旦撒大大撒速度是</a></p></li>
+				<li><p><a href="" title="">撒旦撒撒旦阿斯顿撒旦撒撒旦撒是撒大苏打撒倒萨倒萨撒旦撒旦撒大大撒速度是</a></p></li>
+			</ul>
+		</div>
+		<div>
+			<h3>社会<a href=""><img src="images/chacha.png"></a></h3>
+			<ul>
+				<li><p><a href="" title="">内陆地区见核电项目阿德说的是</a></p></li>
+				<li><p><a href="" title="">撒旦撒撒旦阿斯顿撒旦撒撒旦撒是撒大苏打撒倒萨倒萨撒旦撒旦撒大大撒速度是</a></p></li>
+				<li><p><a href="" title="">撒旦撒撒旦阿斯顿撒旦撒撒旦撒是撒大苏打撒倒萨倒萨撒旦撒旦撒大大撒速度是</a></p></li>
+			</ul>
+		</div>
+		<div>
+			<h3>体育<a href=""><img src="images/chacha.png"></a></h3>
+			<ul>
+				<li><p><a href="" title="">内陆地区见核电项目阿德说的是</a></p></li>
+				<li><p><a href="" title="">撒旦撒撒旦阿斯顿撒旦撒撒旦撒是撒大苏打撒倒萨倒萨撒旦撒旦撒大大撒速度是</a></p></li>
+				<li><p><a href="" title="">撒旦撒撒旦阿斯顿撒旦撒撒旦撒是撒大苏打撒倒萨倒萨撒旦撒旦撒大大撒速度是</a></p></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var che = $("input");
+		function get(){
+			var ch = {};			
+			for(var n =0 ;n<che.length;n++){
+				if(che.get(n).checked == true){
+					ch[n] = n;
+				}
+			}			
+			localStorage.che = JSON.stringify(ch);			
+		}
+		function show(){
+			$("input").each(function(){
+				$(this)[0].checked = "";
+			});
+			$("#main div").hide();
+			var data = JSON.parse(localStorage.che);
+			for(var n in data){
+				$("#main div").eq(parseInt(data[n])).show();
+				$("input").get(parseInt(data[n])).checked = "checked";
+			}
+		}
+		if(localStorage.che == undefined){
+			get();
+		}else{
+			show();
+			
+		}
+		$("input").on("click", function(){
+			get();
+			show();
+		})
+		$("a").on("click", function(e){
+			e.preventDefault();
+			$("input").get($(this).closest("div").index()).checked = "";
+			get();
+			show();
+		})
+	</script>
+</body>
+</html>

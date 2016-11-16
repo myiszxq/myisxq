@@ -1,0 +1,29 @@
+*{margin:0 ;padding:0;font-size:.12rem;box-sizing: border-box;}
+a{color: #999;text-decoration: none;}
+.modul_zufang{width:100%;}
+.modul_zufang .nav{width:100%;height:.45rem;background: #62ab00;font-size:.16rem;
+  color: white; line-height:.45rem;display: flex;}  
+  .modul_zufang .nav a{font-size: .16rem;color:white;display: inline-block;} 
+  .modul_zufang .nav a:first-child{transform:scale(1.5,1.5); font-weight:700; margin: 0 2%;}
+  .modul_zufang .nav a:nth-child(3){margin-left:.77rem;}
+  .modul_zufang .nav a:nth-child(4){transform: rotate(90deg);margin-left: 2%;}
+  .modul_zufang .nav a:nth-child(5){margin-left: 31%;}
+  .modul_zufang .nav a:nth-child(5) img{vertical-align: middle;}
+  .modul_zufang .ershou_daohang{width:100%;display:flex;height:.4rem;align-items:center;}
+  .modul_zufang .ershou_daohang >div{width:25%;margin:auto 0;text-align: center;font-size:.14rem;}
+
+.modul_zufang .ershou_daohang >div a{border-top: 5px solid #666;border-left: 5px solid #fff;
+	border-right: 5px solid #fff;float: right; margin-top:.04rem; margin-right:.11rem;
+    border-bottom: none;}
+    .modul_zufang .ershou_daohang i{width:1px ;height:.2rem;background:#d9d9d9;display:inline-block;float:right;}
+    .modul_zufang .img{width:100%;height:.5rem;padding:0 .1rem;}
+    .modul_zufang .img img{height:100%;width:100%;}
+   .modul_zufang .list .listshow{width: 100%;height:.95rem;padding:.1rem;display:flex;
+   	border-top:1px solid #999;justify-content:space-between;}
+    .modul_zufang .list .listshow >img{width:1rem;height:.75rem;}
+    .modul_zufang .list .listshow .inner_list{height: .75rem;width:1.9rem;position:relative;}
+    .modul_zufang .list .listshow .inner_list >span{color:red;position:absolute;bottom:0;right:0;font-size:.18rem;}
+    .modul_zufang .list .listshow .inner_list >p:nth-child(1){line-height:.2rem;height:.4rem;
+    	font-weight:700; white-space:initial;text-overflow:ellipsis; overflow: hidden;display: -webkit-box;
+      -webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+    .modul_zufang .list .listshow .inner_list >p{overflow: hidden;}

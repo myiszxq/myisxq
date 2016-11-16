@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 0.12rem;
+}
+body{
+	background: #F3F3F3;
+}
+.mod-answerProblem{
+	box-sizing: border-box;
+	background: #F3F3F3;
+	/*height: 7.3rem;*/
+}
+.mod-answerProblem li{
+	list-style: none;
+}
+.mod-answerProblem a{
+	text-decoration: none;
+}
+
+.mod-answerProblem-head{
+	width: 100%;
+	height: 0.6rem;
+	background: white;
+}
+.mod-answerProblem-head-3{
+	float: left;
+}
+.mod-answerProblem-head-1{
+	float: right;
+}
+.mod-answerProblem-head-2{
+	float: right;
+	margin-right: 0.1rem;
+}
+.mod-answerProblem-nav{
+	width: 100%;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	clear: both;
+	background: #e9e9e9;
+}
+.mod-answerProblem-nav li{
+	width: 33.33%;
+	float: left;
+}
+.mod-answerProblem-nav-1 a{
+	color: #9c9d9d;
+	font-size: 0.2rem;
+	padding-left: 0.1rem;
+	padding-bottom: 2rem;
+}
+.mod-answerProblem-nav-1 span{
+	font-size: 0.2rem;
+	font-weight:900;
+}
+.mod-answerProblem-nav-2 a{
+	color: #323232;
+	font-size: 0.25rem;
+	padding-left: 0.5rem;
+}
+.mod-answerProblem-main{
+	width: 92%;
+	margin-left: 3%;
+	border: 1px solid #bbb;
+	margin-top: 12px;
+}
+.mod-answerProblem-main div:first-child textarea{
+	width: 100%;
+	height: 100px;
+	background: white;
+	font-size: 0.18rem;
+	border: none;
+	border-bottom: 1px solid #bbb;
+}
+.mod-answerProblem-main div:last-child{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 0.1rem;
+	color: #aaa;
+}
+.mod-answerProblem-main div:last-child a{
+	color: #aaa;
+	font-size: 0.18rem;
+}
+.mod-answerProblem-last{
+	width: 92%;
+	margin-left: 3%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 20px;
+	background: rgb(102, 182, 1);
+}
+.mod-answerProblem-last a{
+	font-size: 0.25rem;
+	color: white;
+}
+
+

@@ -1,0 +1,78 @@
+<div class="mod-detail">
+	<a ui-sref="home" class="detail-a"></a>
+	<div class="detail-img">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="http://pic1.ajkimg.com/display/b0d99175531b6a01b8776c7396adec5e/734x542m.jpg" />
+				</div>
+				<div class="swiper-slide">
+					<img src="http://pic1.ajkimg.com/display/c97c3be8a44802f9848679e4b7f6e069/722x542m.jpg" />
+				</div>
+				<div class="swiper-slide">
+					<img src="http://pic1.ajkimg.com/display/c17c5926c02ae3c85290d7c86025f88b/800x542m.jpg" />
+				</div>
+				<div class="swiper-slide">
+					<img src="http://pic1.ajkimg.com/display/4ff5870f49c4b39bad105a57c234d8b6/686x542m.jpg" />
+				</div>
+				<div class="swiper-slide">
+					<img src="http://pic1.ajkimg.com/display/a70e014334b73daf8e1bc02e95465c37/732x542m.jpg" />
+				</div>
+			</div>		
+		</div>
+	</div>
+	<div class="detail-local">
+		<h1>恒大山水城</h1>
+		<p>地址：朝阳-十里堡 武清龙凤新城大东线北</p>
+		<a></a>
+	</div>
+	<div class="detail-intro">
+		<ul>
+			<li>
+				<label>均价</label>
+				<span class="detail-price">
+					<em>11000</em>
+					元/m²
+				</span>
+				<a>
+					<i></i>
+					价格趋势
+				</a>
+			</li>
+			<li>
+				<span>环比上月</span>
+				<span class="detail-huan"><i>5.45%</i></span>
+				<span class="detail-average">板块均价 58216元/m²</span>
+			</li>
+			<li>更多概况</li>
+		</ul>
+	</div>
+	<div class="detail-select">
+		<h2>本小区二手房</h2>
+		<div class="detail-nav">
+			<ul>
+				<li>全部</li>
+				<li>一室</li>
+				<li>二室</li>
+				<li>三室</li>
+				<li>四室</li>
+			</ul>
+		</div>
+	</div>
+	<div class="detail-house">
+		<a ng-repeat="x in arr">
+			<img ng-src={{x.img}} />
+			<div class="house-info">
+				<h3>{{x.name}}</h3>
+				<p>{{x.site}}</p>
+				<p>{{x.case}}
+					<span>
+						<em>{{x.price}}</em>
+						万
+					</span>
+				</p>
+			</div>
+		</a>
+		
+	</div>
+</div>

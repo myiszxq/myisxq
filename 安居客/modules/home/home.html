@@ -1,0 +1,314 @@
+<div class="zx" >
+	<header>
+		<a ui-sref="city" class="a_1"><span>北京</span></a>
+		<a ui-sref="seek">
+			<div class="d_1">
+				<div class="d_tu"></div>
+				挑好房，上安居客
+			</div>			
+		</a>
+		<a ui-sref="map"><div class="d_di"></div></a>
+		<a ui-sref="mine"><div class="d_me"></div></a>
+	</header>
+	<div class="banner">
+		<a href="#xingfang">
+			<div>
+				<div  class="b_1"></div>
+				<p>新房</p>
+			</div>			
+		</a>
+		<a href="#ershou">
+			<div>
+				<div  class="b_2"></div>
+				<p>二手房</p>
+			</div>			
+		</a>
+		<a href="#zufang">
+			<div>
+				<div  class="b_3"></div>
+				<p>租房</p>
+			</div>			
+		</a>
+		<a href="#shangpu">
+			<div>
+				<div  class="b_4"></div>
+				<p>商铺写字楼</p>
+			</div>			
+		</a>
+		<a href="#maifang">
+			<div>
+				<div  class="b_5"></div>
+				<p>买房</p>
+			</div>			
+		</a>
+		<a href="#daikuan">
+			<div>
+				<div  class="b_6"></div>
+				<p>金融贷款</p>
+			</div>			
+		</a>
+		<a href="#xiaoqu">
+			<div>
+				<div  class="b_7"></div>
+				<p>小区房价</p>
+			</div>			
+		</a>
+		<a href="#">
+			<div>
+				<div  class="b_8"></div>
+				<p>下载app</p>
+			</div>			
+		</a>
+	</div>
+	<div class="nav">
+		<div class="n_c"></div>
+		<div class="n_1">
+			<a ui-sref="tuijian">
+				<em>●</em>
+				楼市火热，早下手早安心，精选刚需房源推荐
+			</a>
+			<a href="">
+				<em>●</em>
+				买下这些房子，地铁离家不远，享便利出行
+			</a>
+			<a href="">
+				<em>●</em>
+				满五唯一无税费，买到就是赚到，好房源不等人
+			</a>
+			<a href="">
+				<em>●</em>
+				精装修婚房推荐，搞定温馨小家，坐享品质生活
+			</a>
+			<a href="">
+				<em>●</em>
+				您关注的小区有好房源新鲜出炉，赶快下手
+			</a>
+			<a href="">
+				<em>●</em>
+				楼市火热，早下手早安心，精选刚需房源推荐
+			</a>
+			<a href="">
+				<em>●</em>
+				买下这些房子，地铁离家不远，享便利出行
+			</a>
+		</div>
+	</div>
+	<div class="around">
+		<p> 
+			<a href="#ershou">附近</a> 
+			<a href="#ershou">朝阳</a> 
+			<a href="#ershou">周边</a>
+			<a href="#ershou">昌平</a>
+			<a href="#ershou">海淀</a>
+			<a href="#ershou">顺义</a> 
+			<a href="#ershou">丰台</a> 
+			<a href="#ershou">大兴</a> 
+			<a href="#ershou">房山</a>
+			<span>></span>
+		</p>
+		<p>
+			<a href="#ershou">1000万元以上</a>
+			<a href="#ershou">500-700万元</a>
+			<a href="#ershou">300-400万元</a>
+			<span>></span>
+		</p>
+		<p>
+			<a href="#ershou">一室</a>
+			<a href="#ershou">二室</a>
+			<a href="#ershou">三室</a>
+			<a href="#ershou">四室</a>
+			<a href="#ershou">五室</a>
+			<a href="#ershou">五室以上</a>
+			<span>></span>
+		</p>
+	</div>
+	<div class="love">
+		<h2><div></div>猜你喜欢</h2>
+		<ul>
+			<li ng-repeat="q in arr">
+			<a ui-sref="detail" href="#/detail">
+				<img ng-src={{q.img}}>
+				<h3>{{q.name}}</h3>
+				<p>{{q.site}} </p>
+				<p>{{q.case}} </p>
+				<p >
+					<strong ng-repeat="y in q.ar">{{y}}</strong>
+				</p>
+				<span>{{q.price}} </span>				
+			</a>
+			</li>
+		</ul>
+		<p class="last">更多推荐</p>
+	</div>
+	<div class="house">
+		<h2><div></div>房价</h2>
+		<div>
+			<a ui-sref="fangjia">
+				<p>北京  <span class="fl1">></span></p>
+			</a>
+			<p>本月均价<span>56566</span>元/m*m <span class="top"><i></i>3.88%</span></p>
+			<img src="./images/canvas.png">
+			<!-- <canvas></canvas> -->
+		</div>
+		<a ui-sref="fangjia">
+			<p class="ss">周边 <span class="price">18369元/㎡</span><span class="top"><i></i>3.88%</span>  <span class="fl">></span></p>
+		</a>
+		<a ui-sref="fangjia">
+			<p class="ss">朝阳 <span class="price">18369元/㎡</span><span class="top"><i></i>3.88%</span> <span class="fl">></span></p>
+		</a>
+		<a ui-sref="fangjia">
+			<p class="ss">昌平 <span class="price">18369元/㎡</span><span class="top"><i></i>3.88%</span>  <span class="fl">></span></p>
+		</a>
+		<a ui-sref="fangjia">
+			<p class="last">更多区域板块价格</p>
+		</a>		
+	</div>
+	<div class="answer">
+		<h2><div></div><span>问答</span></h2>
+		<a ui-sref="answerChannel">
+			<p class="wen">进入问答频道 <span class="fl">></span></p>
+		</a>
+		<div>
+			<p class="hot">热门排行</p>
+			<p> <span>Q</span> [默认]二手房过户需要多少元 </p>
+			<p class="qq"> <span>A</span>首先确定下有没有房产证，产证有没有有过五年，如果过五年，过户中应该产生的总共费用有1%的个人所得税，1.5%的契税，6元每平方的过户手续费，及登记80元。
+没有过五年的话多一个5.6%的营业税。</p>
+		</div>
+		<div class="see">
+			<a ui-sref="answerSearch">
+				<span>搜索一下</span>
+			</a>
+			<a ui-sref="answerProblem">
+				<span>提问题</span>
+			</a>
+		</div>
+		<a ui-sref="answerMore">
+			<p class="lase">查看更多问题</p>
+		</a>
+	</div>
+	<img class="img" src="http://a.pic1.ajkimg.com/display/xinfang/4e8c99d418703b41adfd4129cb6837a3/640x130n.jpg">
+	<div class="xx">
+		<p class="j1">
+			北京各区域二手房 <span>></span>
+		</p>
+		<ul>
+			<li><a ui-sref="ershou">朝阳</a> </li>
+			<li><a ui-sref="ershou">海淀</a> </li>
+			<li><a ui-sref="ershou">丰台</a> </li>
+			<li><a ui-sref="ershou">东城</a> </li>
+			<li><a ui-sref="ershou">西城</a> </li>
+			<li><a ui-sref="ershou">崇文</a> </li>
+			<li><a ui-sref="ershou">宣武</a> </li>
+			<li><a ui-sref="ershou">石景山</a> </li>
+			<li><a ui-sref="ershou">昌平</a> </li>
+			<li><a ui-sref="ershou">通州</a> </li>
+			<li><a ui-sref="ershou">大兴</a> </li>
+			<li><a ui-sref="ershou">顺义</a> </li>
+			<li><a ui-sref="ershou">怀柔</a> </li>
+			<li><a ui-sref="ershou">房山</a> </li>
+			<li><a ui-sref="ershou">门头沟</a> </li>
+			<li><a ui-sref="ershou">密云</a> </li>
+			<li><a ui-sref="ershou">平谷</a> </li>
+			<li><a ui-sref="ershou">延庆</a> </li>
+			<li><a ui-sref="ershou">周边</a> </li>
+		</ul>
+		<p>北京二手房房价 <span>></span></p>
+		<ul>
+			<li><a ui-sref="ershou">朝阳</a> </li>
+			<li><a ui-sref="ershou">海淀</a> </li>
+			<li><a ui-sref="ershou">丰台</a> </li>
+			<li><a ui-sref="ershou">东城</a> </li>
+			<li><a ui-sref="ershou">西城</a> </li>
+			<li><a ui-sref="ershou">崇文</a> </li>
+			<li><a ui-sref="ershou">宣武</a> </li>
+			<li><a ui-sref="ershou">石景山</a> </li>
+			<li><a ui-sref="ershou">昌平</a> </li>
+			<li><a ui-sref="ershou">通州</a> </li>
+			<li><a ui-sref="ershou">大兴</a> </li>
+			<li><a ui-sref="ershou">顺义</a> </li>
+			<li><a ui-sref="ershou">怀柔</a> </li>
+			<li><a ui-sref="ershou">房山</a> </li>
+			<li><a ui-sref="ershou">门头沟</a> </li>
+			<li><a ui-sref="ershou">密云</a> </li>
+			<li><a ui-sref="ershou">平谷</a> </li>
+			<li><a ui-sref="ershou">延庆</a> </li>
+			<li><a ui-sref="ershou">周边</a> </li>
+		</ul>
+		<p>热门城市二手房 <span>></span></p>
+		<ul>
+			<li><a ui-sref="ershou">朝阳</a> </li>
+			<li><a ui-sref="ershou">海淀</a> </li>
+			<li><a ui-sref="ershou">丰台</a> </li>
+			<li><a ui-sref="ershou">东城</a> </li>
+			<li><a ui-sref="ershou">西城</a> </li>
+			<li><a ui-sref="ershou">崇文</a> </li>
+			<li><a ui-sref="ershou">宣武</a> </li>
+			<li><a ui-sref="ershou">石景山</a> </li>
+			<li><a ui-sref="ershou">昌平</a> </li>
+			<li><a ui-sref="ershou">通州</a> </li>
+			<li><a ui-sref="ershou">大兴</a> </li>
+			<li><a ui-sref="ershou">顺义</a> </li>
+			<li><a ui-sref="ershou">怀柔</a> </li>
+			<li><a ui-sref="ershou">房山</a> </li>
+			<li><a ui-sref="ershou">门头沟</a> </li>
+			<li><a ui-sref="ershou">密云</a> </li>
+			<li><a ui-sref="ershou">平谷</a> </li>
+			<li><a ui-sref="ershou">延庆</a> </li>
+			<li><a ui-sref="ershou">周边</a> </li>
+		</ul>
+		<p>热门新房 <span>></span></p>
+		<ul>
+			<li><a ui-sref="ershou">朝阳</a> </li>
+			<li><a ui-sref="ershou">海淀</a> </li>
+			<li><a ui-sref="ershou">丰台</a> </li>
+			<li><a ui-sref="ershou">东城</a> </li>
+			<li><a ui-sref="ershou">西城</a> </li>
+			<li><a ui-sref="ershou">崇文</a> </li>
+			<li><a ui-sref="ershou">宣武</a> </li>
+			<li><a ui-sref="ershou">石景山</a> </li>
+			<li><a ui-sref="ershou">昌平</a> </li>
+			<li><a ui-sref="ershou">通州</a> </li>
+			<li><a ui-sref="ershou">大兴</a> </li>
+			<li><a ui-sref="ershou">顺义</a> </li>
+			<li><a ui-sref="ershou">怀柔</a> </li>
+			<li><a ui-sref="ershou">房山</a> </li>
+			<li><a ui-sref="ershou">门头沟</a> </li>
+			<li><a ui-sref="ershou">密云</a> </li>
+			<li><a ui-sref="ershou">平谷</a> </li>
+			<li><a ui-sref="ershou">延庆</a> </li>
+			<li><a ui-sref="ershou">周边</a> </li>
+		</ul>
+		<p>推荐页面 <span>></span></p>
+		<ul>
+			<li><a ui-sref="ershou">朝阳</a> </li>
+			<li><a ui-sref="ershou">海淀</a> </li>
+			<li><a ui-sref="ershou">丰台</a> </li>
+			<li><a ui-sref="ershou">东城</a> </li>
+			<li><a ui-sref="ershou">西城</a> </li>
+			<li><a ui-sref="ershou">崇文</a> </li>
+			<li><a ui-sref="ershou">宣武</a> </li>
+			<li><a ui-sref="ershou">石景山</a> </li>
+			<li><a ui-sref="ershou">昌平</a> </li>
+			<li><a ui-sref="ershou">通州</a> </li>
+			<li><a ui-sref="ershou">大兴</a> </li>
+			<li><a ui-sref="ershou">顺义</a> </li>
+			<li><a ui-sref="ershou">怀柔</a> </li>
+			<li><a ui-sref="ershou">房山</a> </li>
+			<li><a ui-sref="ershou">门头沟</a> </li>
+			<li><a ui-sref="ershou">密云</a> </li>
+			<li><a ui-sref="ershou">平谷</a> </li>
+			<li><a ui-sref="ershou">延庆</a> </li>
+			<li><a ui-sref="ershou">周边</a> </li>
+		</ul>
+	</div>
+	<div class="you">
+		<p>
+            北京房产网，为您提供北京二手房房源信息、新房、租房、房价走势等信息。您可以通过周边、朝阳、昌平、海淀、顺义、丰台、大兴、房山、通州、密云、东城、西城、宣武、崇文、石景山、延庆、怀柔、平谷、门头沟、北京周边各区域进行筛选,北京房地产信息网租售服务平台,帮助您寻找到满意的房子。        </p>
+	</div>
+	<div class="footer">
+		<p>小区大全|网站地图|历史浏览|最新房源|房贷计算器</p>
+		<p>手机版|电脑版|客户端|意见反馈|免责声明</p>
+		<span>Copyright © 2007-2014 Anjuke.com 沪B2-20090008</span>
+		<div class="jia"></div>
+	</div>
+</div>

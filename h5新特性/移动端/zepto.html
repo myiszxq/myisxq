@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0 , maximum-scale = 1.0, minimum-scale = 1.0, user-scalable = 0">
+	<title>Document</title>
+	<style type="text/css" >
+		div{
+			background: red;
+			width: 100px;
+			height: 200px;
+		}
+		.s{
+			background: yellow;
+		}
+	</style>
+	<script type="text/javascript" src = "js/zepto.js"></script>
+	<script type="text/javascript" src = "js/touch.js"></script>
+	<script type="text/javascript" src = "js/detect.js"></script>
+	<script type="text/javascript" src = "js/event.js"></script>
+	<script type="text/javascript" src = "js/data.js"></script>
+</head>
+<body>
+	<div>asdadasdasdassadadsasadassa</div>
+	<p id="we">阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德阿萨德</p>
+	<p id="wewe" style="width:100px;"></p>
+	<img src="" name="2">
+	<script type="text/javascript">
+		$(document).on("tap",function(e){
+			console.log(e.type)
+		})
+		$(document).on("singleTap",function(e){
+			console.log(e.type)
+		})
+		$(document).on("doubleTap",function(e){
+			console.log(e.type)
+		})
+		$(document).on("longTap",function(e){
+			console.log(e.type)
+		})
+		$(document).on("swipe",function(e){
+			console.log(e.type)
+		})
+		$(document).on("swipeLeft",function(e){
+			console.log(e.type);
+			$("div").css("background","blue")
+		})
+		$(document).on("swipeRight",function(e){
+			console.log(e.type);
+			$("div").css("background","yellow")
+		})
+		$(document).on("swipeUp",function(e){
+			console.log(e.type)
+		})
+		$(document).on("swipeDown",function(e){
+			console.log(e.type)
+		})
+	</script>
+</body>
+</html>

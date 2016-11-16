@@ -1,0 +1,71 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": {
+        "list": [
+            {
+                "img": "http://pic1.ajkimg.com/m/cd90cdd3ef1a56c16df17339e08ece97/240x180m.jpg?t=1",
+                "tittle": "北京站附近 协和医院 金宝街 雅宝路 朝阳门南小街精装一居室",
+                "location": "东单-东城  朝内南小街20号楼",
+                "price": "6600元/月",
+                "details": "1 室1厅 整租"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/f5414379e42adef3881822a414d6ccf3/240x180m.jpg?t=1",
+                "tittle": "北影小区正规2居室65平房子不错，快来看看吧",
+                "location": "蓟门桥-海淀  北影小区",
+                 "price": "6500元/月",
+                "details": "2室1厅 整租"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/ca64ead23300a856e100cf8b634c647f/200x150.jpg",
+                 "tittle": "业主直租，望京15号线安立路地铁房，精装全齐家电家具",
+                "location": "亚运村-朝阳  安立花园",
+                 "price": "2550元/月",
+                "details": "3室1厅 整租"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/cd90cdd3ef1a56c16df17339e08ece97/240x180m.jpg?t=1",
+                "tittle": "北京站附近 协和医院 金宝街 雅宝路 朝阳门南小街精装一居室",
+                "location": "东单-东城  朝内南小街20号楼",
+                "price": "6600元/月",
+                "details": "1 室1厅 整租"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/f5414379e42adef3881822a414d6ccf3/240x180m.jpg?t=1",
+                "tittle": "北影小区正规2居室65平房子不错，快来看看吧",
+                "location": "蓟门桥-海淀  北影小区",
+                 "price": "6500元/月",
+                "details": "2室1厅 整租"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/ca64ead23300a856e100cf8b634c647f/200x150.jpg",
+                 "tittle": "业主直租，望京15号线安立路地铁房，精装全齐家电家具",
+                "location": "亚运村-朝阳  安立花园",
+                 "price": "2550元/月",
+                "details": "3室1厅 整租"
+            },
+             {
+                "img": "http://pic1.ajkimg.com/m/cd90cdd3ef1a56c16df17339e08ece97/240x180m.jpg?t=1",
+                "tittle": "北京站附近 协和医院 金宝街 雅宝路 朝阳门南小街精装一居室",
+                "location": "东单-东城  朝内南小街20号楼",
+                "price": "6600元/月",
+                "details": "1 室1厅 整租"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/f5414379e42adef3881822a414d6ccf3/240x180m.jpg?t=1",
+                "tittle": "北影小区正规2居室65平房子不错，快来看看吧",
+                "location": "蓟门桥-海淀  北影小区",
+                 "price": "6500元/月",
+                "details": "2室1厅 整租"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/ca64ead23300a856e100cf8b634c647f/200x150.jpg",
+                 "tittle": "业主直租，望京15号线安立路地铁房，精装全齐家电家具",
+                "location": "亚运村-朝阳  安立花园",
+                 "price": "2550元/月",
+                "details": "3室1厅 整租"
+            }
+        ]
+    }
+}

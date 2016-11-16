@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		html{
+			font-size: 20px;
+		}
+		body{
+			font-size: 30px;
+		}
+		#a1{
+			width: 100%;
+			height: 200px;
+			border:1px solid red;
+		}
+		/* 注意 使用这种布局方式 样式一定按照事件发生的顺序排列否则的话不按事件发生顺序书写的样式就不会生效*/
+		@media only screen and (max-width: 1000px){
+			#a1{
+				background: red;
+			}
+		}
+		@media only screen and (max-width: 800px){
+			#a1{
+				background: yellow;
+			}
+		}
+		@media only screen and (max-width: 500px){
+			#a1{
+				background: blue;
+			}
+		}
+		#b1{
+			width: 100%;
+			height: 4em;
+			border:1px solid red;
+		}
+		#b2{
+			border:1px solid red;
+			width: 100%;
+			height: 4rem;
+		}
+		#b21{
+			width: 2em;
+			height: 2rem;
+			background: #f8b9a5;
+		}
+		#c{
+			display: flex;
+			direction:rtl;/* rtl（right to left）即从右向左排序 */
+			margin: 4px 0 ;
+		}
+		#d{
+			display: flex;
+			/* flex-direction:row; *//* 横向排列不会折行 */
+			/* flex-direction:column; *//* 纵向排序 元素会自动填满整个横向空间*/
+			flex-direction:row-reverse;/* 横向排列不会折行 且排列顺序相反 */
+		}
+		#e{
+			display: flex;
+			flex-wrap:wrap;/* 自动换行 */
+			/* flex-wrap:nowrap; *//* 不换行 */
+			/* flex-wrap:wrap-reverse; *//* 自动换行且排序相反 */
+		}
+		.order1{
+			order:0;
+			flex-grow:1;
+		}
+		.order2{
+			order:-1;/* 没有order属性的默认为0 */
+			flex-grow:3;/* 如果窗口大小改变将会影响此属性的显示效果 */
+		}
+		#a{
+			display: flex;
+			/* justify-content:flex-start; *//* 向左对齐 */
+			/* justify-content:flex-end; *//* 向右对齐 */
+			justify-content:center;/* 沿着中心纵轴对称分布且元素之间并无空隙 */
+			/* justify-content:space-between;沿着中心纵轴对称分布元素与元素中间平分空隙等长且元素和两侧边缘贴近 */
+			/* justify-content:space-around; 沿着中心纵轴对称分布元素之间空隙等长且两侧边缘各有0.5单位的空隙 */
+		}
+		#a>div,#b>div,#f>div{
+			width: 200px;
+			height: 20px;
+			background: #c8d0a5;
+			margin-left: 3px;
+			border:1px solid red;
+			color:#666;
+			text-align: center;
+			font-size: 16px;
+			font-weight: bold;
+		}
+		#b{
+			display: flex;
+			/* align-items:flex-start; *//* 纵向方向朝上对齐 */
+			/* align-items:flex-end;纵向方向朝下对齐 */
+			/* align-items:center;纵向方向居中 */
+			align-items:baseline;/* 不太懂 */
+			height: 60px;
+			border:1px solid #ccc;
+			margin: 7px 0;
+			/* align-items:baseline; */
+		}
+		#f{
+			display: flex;
+			margin: 10px 0;
+			height: 80px;
+			width: 500px;
+			border:1px solid yellow;
+			align-content:stretch;
+			flex-wrap:wrap;/* 这个是基础下面可以说是这个的扩展 */
+			 /* align-content:flex-start; *//* 自动向上对其 */
+			/* align-content:flex-end; *//* 自动向下对其 */
+			/* align-content:center; */ /* 自动向纵向对其 */
+			/* align-content:space-around; *//* 均匀分布  */
+			align-content:space-between;/* 均匀分布且两侧元素贴近父元素的边界 */
+		}
+	</style>
+</head>
+<body>
+	<div id="a1"></div>
+	<div id="b1"></div>
+	<div id="b2">
+		<div id="b21"></div>
+	</div>
+	<div id="a">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+	</div>
+	<div id="b">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+	</div>
+	<div id="f">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+	</div>
+	<div id="c">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(13).jpg">
+		<img src="../../images/52_200-150(13).jpg">
+	</div>
+	<div id="d">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(13).jpg">
+		<img src="../../images/52_200-150(13).jpg">
+		<img src="../../images/52_200-150(13).jpg">
+	</div>
+	<div id="e">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(12).jpg">
+		<img src="../../images/52_200-150(13).jpg">
+		<img src="../../images/52_200-150(13).jpg">
+		<img class="order1" src="../../images/52_200-150(6).jpg">
+		<img src="../../images/52_200-150(13).jpg">
+		<img class="order2" src="../../images/52_200-150(8).jpg">
+	</div>
+	<script type="text/javascript">
+
+	</script>
+</body>
+</html>

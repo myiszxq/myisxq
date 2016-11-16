@@ -1,0 +1,79 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": {
+        "list": [
+            {
+                "img": "http://pic1.ajkimg.com/m/8cf4fe29b745bc351bdc15583a8ac00d/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+                "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            },
+           {
+                "img": "http://pic1.ajkimg.com/m/f99c036a2b2393733838d6380c2db5df/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+               "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            },
+           {
+                "img": "http://pic1.ajkimg.com/m/b25b0c9b80273f3e68f72f37fcd77be3/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+                "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            },
+           {
+                "img": "http://pic1.ajkimg.com/m/8cf4fe29b745bc351bdc15583a8ac00d/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+                 "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/e4e539214226daa3132f209489e030a5/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+                "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/8cf4fe29b745bc351bdc15583a8ac00d/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+                "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            },
+             {
+                "img": "http://pic1.ajkimg.com/m/8cf4fe29b745bc351bdc15583a8ac00d/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+                "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            },
+             {
+                "img": "http://pic1.ajkimg.com/m/8cf4fe29b745bc351bdc15583a8ac00d/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+               "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            },
+             {
+                "img": "http://pic1.ajkimg.com/m/8cf4fe29b745bc351bdc15583a8ac00d/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+                "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            },
+             {
+                "img": "http://pic1.ajkimg.com/m/8cf4fe29b745bc351bdc15583a8ac00d/200x150c.jpg?t=1",
+                "tittle": "国内第三大型商业体，一站式托管，不限购不限贷，省心省力赚钱",
+                "location": "周边-涿州 未来城",
+                "price": "43万",
+                "details": "1室0厅 23m²"
+            }
+
+        ]
+    }
+}

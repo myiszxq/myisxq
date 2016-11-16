@@ -1,0 +1,220 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+.comment-header{
+	position: relative;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    background: #e8e8e8;
+    font-size: 0.16rem;
+}
+.comment-header a:first-of-type{
+	position: absolute;
+    left: 10px;
+    top: 14px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.14rem;
+    color: #999;
+    padding-left: 16px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAqBAMAAABb64ZtAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX///+ZmZmZmZmZmZmZmZmZmZmZmZn14RGuAAAAB3RSTlMAEWaZzN3/yvUsXgAAAAlwSFlzAAAK6wAACusBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDQvMDMvMTWRVqlTAAAAPElEQVQokWNggAMTAQSbOc0RwTFLS0GSSEtCkkhTGEISYUgSrLgkUDkoylClUIxGsXQISiEiGDXqgYkCADUkLjcR8/iSAAAAAElFTkSuQmCC) no-repeat left center;
+    -webkit-background-size: 12px 20px;
+    background-size: 12px 20px;
+}
+.comment-header span{
+	margin: 0 auto;
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    width: 55%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.comment-header a:last-of-type{
+	width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    background: url(//pages.anjukestatic.com/kfstouch/img/base4.png) no-repeat;
+    background-size: 20px 660px;
+    background-position: 0 -600px;
+}
+.message-user{
+	z-index: 1;
+    position: relative;
+    display: -webkit-box;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    margin: 10px;
+    color: #000;
+    font-size: 0.14rem;
+    font-weight: normal;
+}
+.message-user img{
+	width: 23px;
+    height: 23px;
+    border-radius: 23px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+.message-user a{
+	position: absolute;
+    right: 0;
+    top: 0;
+    color: #2b67bb;
+}
+.message-other{
+	display: -webkit-box;
+    font-size: 1.5rem;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+.message-other div{
+	color: #656565;
+    -webkit-box-flex: 1;
+    text-align: center;
+    font-size: 0.14rem;
+}
+.message-other div strong{
+	margin-left: 4px;
+    color: #ff6500;
+    font-weight: 400;
+}
+.message-other i{
+	display: block;
+    height: 20px;
+    width: 1px;
+    background: #ccc;
+}
+.message-score{
+	display: -webkit-box;
+    -webkit-box-flex: 1;
+    margin: 10px;
+}
+.message-score a{
+	display: block;
+    font-size: 14px;
+    width: 49%;
+    text-align: center;
+    line-height: 30px;
+    color: #52ab00;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+}
+.message-total{
+	height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background: #f4f4f4;
+    color: #666;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    font-size: 0.15rem;
+}
+.comment-like h3{
+	font-size: 0.16rem;
+    padding: 15px 10px 5px;
+    border-top: solid 10px #e5e5e5;
+    color: #000;
+    margin-top: -1px;
+}
+.like-detail{
+	display: flex;
+	-webkit-box-flex: 1;
+    padding: 15px;
+    background-color: #fff;
+    color: #666;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    font-size: 0.12rem;
+}
+.like-detail img{
+	display: block;
+    height: 75px;
+    width: 100px;
+    vertical-align: middle;
+}
+.like-detail dl{
+	margin-left: 10px;
+    -webkit-box-flex: 1;
+    max-height: 94px;
+    overflow: hidden;
+    width: 100%;
+}
+.like-detail dl dt{
+	display: -webkit-box;
+    -webkit-box-flex: 1;
+    height: 19px;
+    line-height: 19px;
+    -webkit-box-align: center;
+}
+.like-detail dl dt strong{
+	display: block;
+    -webkit-box-flex: 1;
+    font-weight: 400;
+    color: #333;
+    font-size: 0.15rem;
+    font-weight: bold;
+    max-width: 1.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.like-detail dl dt i{
+	    display: block;
+    margin: 0 2px 2px;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 2px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 2px;
+    background: #51a307;
+}
+.like-detail dl dd{
+	
+	display: -webkit-box;
+    height: 19px;
+    font-size: 0.14rem;
+    line-height: 19px;
+    overflow: hidden;
+    -webkit-box-align: center;
+    position: relative;
+}
+.like-detail dl dd:first-of-type span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 0.14rem;
+    color: #e54c00;	
+	
+}
+.like-detail dl dd:first-of-type span strong{
+	font-size: 0.34rem;
+}
+.like-detail dl dd:nth-of-type(2) em{
+	font-size: 0.12rem;
+    display: block;
+    border: solid 1px #eaeaea;
+    margin-right: 4px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+.like-detail dl dd:last-of-type{
+	color: #51a308;
+}

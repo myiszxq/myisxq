@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin-top: 10px;
+		}
+		/* 
+		moz 代表firefox浏览器私有属性
+		ms 代表ie
+		webkit代表sadar，chrome
+		o代表欧朋
+		 */
+		 /* 
+		@font-face{
+			font-family:<自定义字体名称>;
+			src :<字体路径>[<format>][,[<source>[<format>]];
+			[font-weight : <weight>];
+			[font-sytle : <style>];
+		}
+		  */
+		p{
+			-webkit-text-fill-color:black;
+			-webkit-text-stroke-color :red;
+			-webkit-text-stroke-width:1.2px;
+			font-size: 10px;
+			position: fixed;
+			bottom: 0;
+		}
+		/* 
+		属性选择器
+		
+		 */
+		 a:link{
+		 	color:red;
+		 }
+		 a:visited{
+		 	color:green;
+		 }
+		 a:hover{
+			color:blue;
+		 }
+		 a:active{
+			color:#000;
+		 }
+		 input[type="text"]:focus{
+			border:3px gray solid;
+		 }
+		 /* 虚线  */
+		 div a:first-child{
+			background-color:#f3f3f3;
+		 }
+		 div a:last-child{
+			background-color:red;
+		 } 
+		 div a:nth-child(2){
+			background-color: #d8a7c0;
+		 }
+		 div a:nth-child(4n+3){
+			background-color: #d8a7c0;
+		 }
+		 div a:nth-of-type(3){
+			background-color: #f6d4e6;
+		 }
+		 div a:nth-last-of-type(2){
+			background-color: blue;
+		 }
+}
+	</style>
+</head>
+<body>
+	<p>阿萨德阿萨德阿萨德</p>
+	<div>
+		<a href="www.baidu.com">阿阿斯顿</a>
+		<a href="">阿阿斯顿1</a>
+		<a href="">阿阿斯顿2</a>
+		<a href="">阿阿斯顿3</a>
+		<a href="">阿阿斯顿4</a>
+		<a href="">阿阿斯顿5</a>
+		<a href="">阿阿斯顿6</a>
+		<a href="">阿阿斯顿7</a>
+		<a href="">阿阿斯顿8</a>
+		<a href="">阿阿斯顿9</a>
+		<a href="">阿阿斯顿10</a>
+	</div>
+		<input type="text">
+</body>
+</html>

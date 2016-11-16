@@ -1,0 +1,15 @@
+ 
+ .wl input[type='text']{
+ 	width: 70%;
+	font-size: .16rem;
+ }
+  .wl input[type='button']{
+  	background: #62ab00;
+ 	width: 20%;
+	color: #fff;
+	font-size: .2rem;
+ }
+ .wl{
+ 	padding: .1rem 0 .1rem 10%;
+ 	display: flex;
+ }

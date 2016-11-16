@@ -1,0 +1,30 @@
+*{margin:0 ;padding:0;font-size:.12rem;box-sizing: border-box;}
+a{color: #999;text-decoration: none;}
+.modul_xiaoqu{width:100%;}
+.modul_xiaoqu .nav{width:100%;height:.45rem;background: #62ab00;font-size:.16rem;
+  color: white; line-height:.45rem;display: flex;}  
+  .modul_xiaoqu .nav a{font-size: .16rem;color:white;display: inline-block;} 
+  .modul_xiaoqu .nav a:first-child{transform:scale(1.5,1.5); font-weight:700; margin: 0 2%;}
+  .modul_xiaoqu .nav a:nth-child(3){margin-left:.77rem;}
+  .modul_xiaoqu .nav a:nth-child(4){transform: rotate(90deg);margin-left: 2%;}
+  .modul_xiaoqu .nav a:nth-child(5){margin-left: 31%;}
+  .modul_xiaoqu .nav a:nth-child(5) img{vertical-align: middle;}
+  .modul_xiaoqu .ershou_daohang{width:100%;display:flex;height:.4rem;align-items:center;}
+  .modul_xiaoqu .ershou_daohang >div{width:25%;margin:auto 0;text-align: center;font-size:.14rem;}
+
+.modul_xiaoqu .xiaoqu_daohang >div a{border-top: 5px solid #666;border-left: 5px solid #fff;
+	border-right: 5px solid #fff;float: right; margin-top:.04rem; margin-right:.11rem;
+    border-bottom: none;}
+    .modul_xiaoqu .xiaoqu_daohang i{width:1px ;height:.2rem;background:#d9d9d9;display:inline-block;float:right;}
+
+   .modul_xiaoqu .list .listshow{width: 100%;height:1.2rem;padding:.1rem;display:flex;
+   	border-top:1px solid #999;justify-content:space-between;}
+    .modul_xiaoqu .list .listshow >img{width:1.4rem;height:1.05rem;}
+    .modul_xiaoqu .list .listshow .inner_list{margin-left:.12rem;height: .75rem;width:1.9rem;position:relative;}
+    .modul_xiaoqu .list .listshow .inner_list >span{color:red;position:absolute;bottom:-0.31rem;right:0;font-size:.18rem;}
+    .modul_xiaoqu .list .listshow .inner_list >p:nth-child(1){line-height:.2rem;height:.2rem;
+    	font-weight:700; white-space: nowrap;text-overflow:ellipsis; overflow: hidden;}
+    .modul_xiaoqu .list .listshow .inner_list >p:nth-child(2){line-height:.2rem;height:.2rem;
+    white-space: nowrap;text-overflow:ellipsis; overflow: hidden;}
+    .modul_xiaoqu .list .listshow .inner_list >p{overflow: hidden;}
+    .modul_xiaoqu .list .listshow .inner_list >p:nth-child(4){position:absolute;bottom:-0.31rem;}

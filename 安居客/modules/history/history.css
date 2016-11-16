@@ -1,0 +1,81 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+.history-header{
+	position: relative;
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    background: #e8e8e8;
+    font-size: 0.16rem;
+}
+.history-header a{
+	position: absolute;
+    left: 10px;
+    top: 14px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.16rem;
+    color: #999;
+    padding-left: 16px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAqBAMAAABb64ZtAAAAA3NCSVQICAjb4U/gAAAAFVBMVEX///+ZmZmZmZmZmZmZmZmZmZmZmZn14RGuAAAAB3RSTlMAEWaZzN3/yvUsXgAAAAlwSFlzAAAK6wAACusBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDQvMDMvMTWRVqlTAAAAPElEQVQokWNggAMTAQSbOc0RwTFLS0GSSEtCkkhTGEISYUgSrLgkUDkoylClUIxGsXQISiEiGDXqgYkCADUkLjcR8/iSAAAAAElFTkSuQmCC) no-repeat left center;
+    -webkit-background-size: 12px 20px;
+    background-size: 12px 20px;
+}
+.history-header span{
+	margin: 0 auto;
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    width: 55%;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.history-ul{
+	height: 37px;
+	display: flex;
+}
+.history-ul li{
+	height: 37px;
+	width: 25%;
+	line-height: 37px;
+	text-align: center;
+	font-size: 0.14rem;
+	border-bottom: 1px solid #d9d9d9;
+}
+.history-ul li:hover{
+	border-bottom: 2px solid #59a200;
+	color: #59a200;
+}
+.history-ul li>apan{
+	display: inline-block;
+	height: 20px;
+	width: 100%;
+	line-height: 20px;
+	text-align: center;
+	font-size: 0.14rem;
+	border-right: 1px solid #ccc;
+}
+.history-ul li:last-of-type span{
+	border:none;
+}
+.history-l{
+	text-align: center;
+	margin: 80px 0;
+}
+.history-l span{
+	display: inline-block;
+    width: 76px;
+    height: 79px;
+    background-image: url("http://include.aifcdn.com/touchweb/2016_45_01_1/touch/img/fav_b.png");
+    background-size: 78px;
+    text-align: center;
+}
+.history-l p{
+	font-size: 0.18rem;
+	text-align: center;
+}

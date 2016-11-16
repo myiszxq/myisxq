@@ -1,0 +1,93 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": {
+        "list": [
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/minsheng.png",
+                "tittle": "民生银行",
+                "style": "5天审批 35天放款",
+                "price": "8.1折",
+                "details": "利率3.97%"
+            },
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/minsheng.png",
+                "tittle": "汇丰银行",
+                "style": "10天审批 35天放款",
+                "price": "8.1折",
+                "details": "利率4.02%"
+            },
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/huifeng.png",
+                "tittle": "农业银行",
+                "style": "10天审批 35天放款",
+                "price": "8.1折",
+                "details": "利率4.02%"
+            },
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/nongye.png",
+                "tittle": "北京银行",
+                "style": "5天审批 30天放款",
+                "price": "8.3折",
+                "details": "利率4.07%"
+            },
+              {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/minsheng.png",
+                "tittle": "民生银行",
+                "style": "5天审批 35天放款",
+                "price": "8.1折",
+                "details": "利率3.97%"
+            },
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/minsheng.png",
+                "tittle": "汇丰银行",
+                "style": "10天审批 35天放款",
+                "price": "8.1折",
+                "details": "利率4.02%"
+            },
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/huifeng.png",
+                "tittle": "农业银行",
+                "style": "10天审批 35天放款",
+                "price": "8.1折",
+                "details": "利率4.02%"
+            },
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/nongye.png",
+                "tittle": "北京银行",
+                "style": "5天审批 30天放款",
+                "price": "8.3折",
+                "details": "利率4.07%"
+            },
+              {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/minsheng.png",
+                "tittle": "民生银行",
+                "style": "5天审批 35天放款",
+                "price": "8.1折",
+                "details": "利率3.97%"
+            },
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/minsheng.png",
+                "tittle": "汇丰银行",
+                "style": "10天审批 35天放款",
+                "price": "8.1折",
+                "details": "利率4.02%"
+            },
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/huifeng.png",
+                "tittle": "农业银行",
+                "style": "10天审批 35天放款",
+                "price": "8.1折",
+                "details": "利率4.02%"
+            },
+            {
+                "img": "//pages.anjukestatic.com/usersite/touch/img/global/active/jinrong/bank/nongye.png",
+                "tittle": "北京银行",
+                "style": "5天审批 30天放款",
+                "price": "8.3折",
+                "details": "利率4.07%"
+            }
+
+        ]
+    }
+}

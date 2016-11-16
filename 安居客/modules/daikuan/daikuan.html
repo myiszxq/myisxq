@@ -1,0 +1,60 @@
+<div class="modul_daikuan">
+	<div class="nav">
+		<a href="#"><</a> <a href="#home">首页</a><a href="#">金融产品</a><a href="#">></a><a href="#"><img src="modules/images/wen.png"></a>
+	</div>
+	<div class="nav_3">
+		<div>
+			<img src="modules/images/g1.png">
+			<p>按揭贷</p>
+			<p>按揭利率8折起</p>
+		</div>
+		<div>
+			<img src="modules/images/g2.png">
+			<p>赎楼贷</p>
+			<p>解抵押 助买房</p>
+		</div>
+		<div>
+			<img src="modules/images/g3.png">
+			<p>信用贷</p>
+			<p>无抵押 借款快</p>
+
+		</div>
+		<div>
+			<img src="modules/images/g4.png">
+			<p>抵押贷</p>
+			<p>	有房就能贷款</p>
+		</div>
+	</div>
+	<div class="xiangqing">
+		<div class="c_1">
+		<i></i> <span>按揭贷款合作银行</span>
+		</div>	
+		<div class="c_2">
+				<div>
+					<img src="modules/images/pufa.png">
+					<div>
+							<p>浦发银行</p>
+							<p>1天审批 30天放贷</p>
+					</div>
+				</div>
+				<div>
+					<p>8折</p>
+					<p>利率3.92%</p>
+					<span>独家</span>
+				</div>
+		</div>
+		<div class="c_2" ng-repeat="q in arr.result.list">
+				<div>
+					<img ng-src="{{q.img}}">
+					<div>
+							<p>{{q.tittle}}</p>
+							<p>{{q.style}}</p>
+					</div>
+				</div>
+				<div>
+					<p>{{q.price}}</p>
+					<p>{{q.details}}</p>
+				</div>
+		</div>
+	</div>
+</div>

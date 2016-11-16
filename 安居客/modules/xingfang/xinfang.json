@@ -1,0 +1,79 @@
+{
+    "errno": 0,
+    "errmsg": "OK",
+    "result": {
+        "list": [
+            {
+                "img": "http://pic1.ajkimg.com/m/ca64ead23300a856e100cf8b634c647f/200x150.jpg",
+                "tittle": "鸿坤七星长安",
+                "location": "门头沟-大峪",
+                "price": "36000",
+                "details": ["新开盘","六环以外","小户型"]
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/ca64ead23300a856e100cf8b634c647f/200x150.jpg",
+                "tittle": "长安太和",
+                "location": "东城-建国门",
+                 "price": "36000",
+                "details": ["二环以内","豪宅","高端会所"]
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/ca64ead23300a856e100cf8b634c647f/200x150.jpg",
+                 "tittle": "江盛园",
+                "location": "武清",
+                 "price": "36000",
+                "details": ["学校","商场","医院"]
+            },
+            {
+                 "img": "http://pic1.ajkimg.com/m/1fdf3a61382eabf307db11abcc69d2dc/200x150.jpg?t=5",
+                 "tittle": "江盛园",
+                "location": "武清",
+                 "price": "36000",
+                "details": ["学校","商场","医院"]
+            },
+            {
+                 "img": "http://pic1.ajkimg.com/m/1fdf3a61382eabf307db11abcc69d2dc/200x150.jpg?t=5",
+                 "tittle": "江盛园",
+                "location": "武清",
+                 "price": "36000",
+                "details": ["学校","商场","医院"]
+            },
+            {
+                "img": "http://pic1.ajkimg.com/m/1fdf3a61382eabf307db11abcc69d2dc/200x150.jpg?t=5",
+                 "tittle": "江盛园",
+                "location": "武清",
+                 "price": "36000",
+                "details": ["学校","商场","医院"]
+            },
+             {
+                "img": "http://pic1.ajkimg.com/m/1fdf3a61382eabf307db11abcc69d2dc/200x150.jpg?t=5",
+                 "tittle": "江盛园",
+                "location": "武清",
+                 "price": "36000",
+                "details": ["学校","商场","医院"]
+            },
+             {
+                "img": "http://pic1.ajkimg.com/m/1fdf3a61382eabf307db11abcc69d2dc/200x150.jpg?t=5",
+                 "tittle": "江盛园",
+                "location": "武清",
+                 "price": "36000",
+                "details": ["学校","商场","医院"]
+            },
+             {
+                "img": "http://pic1.ajkimg.com/m/1fdf3a61382eabf307db11abcc69d2dc/200x150.jpg?t=5",
+                 "tittle": "江盛园",
+                "location": "武清",
+                 "price": "36000",
+                "details": ["学校","商场","医院"]
+            },
+             {
+                "img": "http://pic1.ajkimg.com/m/1fdf3a61382eabf307db11abcc69d2dc/200x150.jpg?t=5",
+                 "tittle": "江盛园",
+                "location": "武清",
+                 "price": "36000",
+                "details": ["学校","商场","医院"]
+            }
+
+        ]
+    }
+}

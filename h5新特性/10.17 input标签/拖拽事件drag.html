@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>菜鸟教程(runoob.com)</title>
+		<style type="text/css">
+		#div1 {width:350px;height:70px;padding:10px;border:1px solid #aaaaaa;}
+		</style>
+		
+	</head>
+	<body>
+		<p>拖动图片到矩形框中:</p>
+		<div id="div1"></div> <br>
+		<!-- 设置拖拽属性draggable为true -->
+		<img id="drag1" src="https://www.baidu.com/img/baidu_jgylogo3.gif" draggable="true" width="336" height="69">
+	</body>
+	<script>
+		// //拖拽事件
+		// document.getElementById("drag1").ondragstart = function(e){
+		// 	e.dataTransfer.setData("imgId", "drag1");
+		// };
+		// //释放事件
+		// document.getElementById("div1").ondrop = function(e){
+		// 	//drop 事件的默认行为是以链接形式打开
+		// 	e.preventDefault();
+		// 	e.target.appendChild(document.getElementById(e.dataTransfer.getData("imgId")));
+		// };
+		// //拖放目标
+		// document.getElementById("div1").ondragover = function(e){
+		// 	//默认地，无法将数据/元素放置到其他元素中。如果需要设置允许放置，我们必须阻止对元素的默认处理方式。
+		// 	e.preventDefault();
+		// };
+
+		//为可拖拽对象绑定 ondragstart
+		document.getElementById("drag1").ondragstart = function(e){
+			console.log(e);
+			e.dataTransfer.setData("id", "drag1");
+		};
+
+		//当拖动对象在目标元素上触发 ondragover事件
+		document.getElementById("div1").ondragover = function(e){
+			e.preventDefault();
+		};
+
+		//当鼠标在目标对象上抬起，触发目标对象的drop事件
+		document.getElementById("div1").ondrop = function(e){
+			e.preventDefault();
+			this.appendChild(document.getElementById(e.dataTransfer.getData("id")));
+		};
+	</script>
+</html>

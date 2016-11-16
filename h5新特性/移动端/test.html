@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding:0;
+		}
+		body{
+			text-align: center;
+		}
+		#zong>div{
+			margin: 1px auto; 
+		}
+		#zong>div{
+			width: 100px;
+			height: 100px;
+			background: #ccc;
+			border:1px solid red;
+		}
+	</style>
+</head>
+<body>
+	<div id="zong">
+		经济 ：<input checked="checked" name="red" type="checkbox" value="经济">
+		体育 ：<input name="blue" type="checkbox" value="体育">
+		军事 ：<input name="pink" type="checkbox" value="军事">
+		<div id="jing">经济</div>
+		<div id="ti">体育</div>
+		<div id="jun">军事</div>	
+	</div>
+	<script type="text/javascript">
+		/*if(typeof localStorage !== "undeined"){
+			localStorage.userinfo = "tom";
+			//将对象转化为字符串 使用JSON.stringify()方法
+			//将字符串转化为对象 使用JSON.parse()方法
+			localStorage.userObj = JSON.stringify({ name : "cat",age: 22});
+			var ss = JSON.parse(localStorage.userObj);
+			console.log(ss);
+		}*/
+		var btn = document.getElementsByTagName("input");
+		document.onclick = function(e){
+			if(e.target.type === "button"){
+				console.log(e.target);
+				document.body.style.background = e.target.name;
+				localStorage.bgColor = e.target.name;
+			}
+		}
+		if(localStorage.bgColor){
+			document.body.style.background = localStorage.bgColor;
+			
+		}
+	</script>
+</body>
+</html>

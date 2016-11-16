@@ -1,0 +1,74 @@
+<div class="modul_shangpu">
+	<div class="nav">
+		<a href="#"><</a><a href="#home">首页</a><a href="#">商铺写字楼</a>
+	</div>
+	<div class="ershou_daohang">
+		<div><img src="modules/images/jing1.png"><input type="text" placeholder="搜索热门商铺">
+		</div>
+	</div>
+	<div class="nav_3">
+		<div>
+			<img src="modules/images/111.png">
+			<p>买商铺</p>
+		</div>
+		<div>
+			<img src="modules/images/112.png">
+			<p>租商铺</p>
+		</div>
+		<div>
+			<img src="modules/images/113.png">
+			<p>买写字楼</p>
+
+		</div>
+		<div>
+			<img src="modules/images/114.png">
+			<p>租写字楼</p>
+			
+		</div>
+	</div>
+	<div class="xiangqing">
+		<div class="c_1">
+			<div><span>商铺</span> <i></i></div>
+			<div><span>写字楼</span> <a href="#"><img src="modules/images/mai.png"></a></div>
+		</div>
+		<div class="c_2">
+			<p>朝阳</p>
+			<p>海淀</p>
+			<p>东城</p>
+			<p>西城</p>
+			<p>崇文</p>
+			<p><a href="#">></a></p>
+		</div>
+		<div class="c_3">
+			<p>CBD</p>
+			<p>通州区</p>
+			<p>三里屯</p>
+			<p>朝阳其他</p>
+			<p><a href="#">></a></p>
+		</div>
+		<div class="c_4">
+			<p>50万元以下</p>
+			<p>50-100万</p>
+			<p>100-150万</p>
+			<p><a href="#">></a></p>
+		</div>
+		<div class="c_5">
+		<a href="#"><img src="modules/images/gengduo.png"></a>
+		</div>
+	</div>
+	<div class="bus_tittle">
+		<span></span>
+		热门出售商铺
+	</div>
+	<div class="list">
+		<div class="listshow" ng-repeat="q in arr.result.list">
+			<img ng-src="{{q.img}}">
+			<div class="inner_list">
+				<p>{{q.tittle}}</p>
+				<p>{{q.location}}</p>
+				<p>{{q.details}}</p>
+				<span>{{q.price}}</span>
+			</div>
+		</div>
+	</div>
+</div>

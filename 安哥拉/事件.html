@@ -1,0 +1,41 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="lib/angular.min.js"></script>
+</head>
+<body>
+<!-- 点击事件 -->
+	<div ng-controller="my">
+		<button ng-click="clickMe()">点我</button>
+		<p>{{number}}</p>
+	</div>
+	<div></div>
+	<!-- 按时 -->
+	<div ng-controller="cl">
+		<p ng-show="flag">asdasd</p>
+		<button ng-click="clickMe()">点我</button>
+		<div ng-show = "show">
+			点我
+		</div>
+	</div>
+	<script type="text/javascript">
+		var app = angular.module("myApp",[])
+		//点击事件
+			.controller("my",["$scope",function($scope){
+				$scope.number=1;
+				$scope.clickMe = function(){
+					$scope.number += 1;
+				}
+			}])
+			.controller("cl",["$scope",function($scope){
+				$scope.flag=true;
+				$scope.show=true;
+				$scope.clickMe = function(){
+					$scope.show = !$scope.show;
+				}
+			}])
+	</script>
+</body>
+</html>

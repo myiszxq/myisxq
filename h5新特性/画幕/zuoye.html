@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#pi{
+			width: 10px;
+			height: 10px;
+			border:1px solid #000;
+			border-radius: 50%;
+			display: none;
+			position: absolute;
+			left: 10px;
+			top: 0;
+		}
+	</style>
+	<script type="text/javascript" src = "jquery-1.11.2.js"></script>
+</head>
+<body>
+	<div> 
+		<select id="color" >
+			<option class="opt" >红色</option> 
+			<option class="opt" >黄色</option> 
+			<option class="opt" >蓝色</option> 
+			<option class="opt"  selected>黑色</option> 
+			<option class="opt" >绿色</option> 
+		</select> 
+
+		<select id="fontSize">
+			<option value=5 selected>5</option> 
+			<option value=10>10</option> 
+			<option value=15>15</option> 
+			<option value=20>20</option> 
+			<option value=30>30</option> 
+		</select> 
+		<button id="e">橡皮</button>
+	</div>
+	<div id="pi"> </div>
+	<canvas width="1420" height="700" style="border: solid"></canvas>
+	<div id="xiangpi"></div>
+	<script type="text/javascript">
+		var can = document.getElementsByTagName("canvas");
+		var huaing = false;
+		var c = can[0].getContext("2d");
+		var X,X1,Y,Y1;
+		c.lineCap = "round";
+		c.storkeStyle = "#000";
+		c.lineWidth = 5;
+		$("#e").on("click", function(){
+			if($(this).text() == "橡皮"){
+				$(this).text("画笔");
+			}else{
+				$(this).text("橡皮");
+
+			}
+		})
+		var hh;
+		$("#color").change(function(){
+			var jj  = $(this).val();
+			switch(jj){
+				case "黑色" : hh = "black"; break;
+				case "红色" : hh = "red";break;
+				case "蓝色" : hh = "blue";break;
+				case "绿色" : hh = "green";break;
+				case "黄色" : hh = "yellow";break;
+			}
+			c.strokeStyle = hh; 
+		})
+		$("#fontSize").change(function(){
+			c.lineWidth = $(this).val();
+			$("#pi").css({width:$(this).val()+ "px",height : $(this).val() + "px"})
+		})
+		$("canvas").mousedown(function(e){
+			e = e ||　window.event;
+			X = e.clientX - 10;
+			Y = e.clientY - 30;
+			console.log(X,Y);
+			huaing = true;
+			if($("#e").text() == "画笔"){
+				c.strokeStyle = "#fff";
+			}else{
+				$("#color").trigger("change");
+			}
+
+		})
+		$("canvas").mousemove(function(e){
+			if(huaing){
+				e = e ||　window.event;
+				X1 = e.clientX -10;
+				Y1 = e.clientY -30;
+				c.beginPath();
+				c.moveTo(X,Y);
+				c.lineTo(X1,Y1);
+				c.stroke();
+				c.closePath();
+				X = X1;
+				Y = Y1;
+			}
+			if($("#e").text() == "画笔"){
+				if(e.clientX>30 && e.clientY >10){
+					$("#pi").show();
+					$("#pi").css({left : "" + e.clientX + "px", top : "" + e.clientY + "px"});
+				} 
+			}else{
+				$("#pi").hide();
+
+			}
+			
+		})
+		$("canvas").mouseup(function(e){
+			huaing = false;
+		})
+		$("#e").on("click", function(e){
+			e = e || window.event;
+			if($(this).text() == "画笔"){
+				c.strokeStyle = "#fff";
+				if(e.clientX>30 && e.clientY >10){
+					$("#pi").show();
+				} 
+			}else{
+				$("#pi").hide();
+
+			}
+		})
+	</script>
+</body>
+</html>

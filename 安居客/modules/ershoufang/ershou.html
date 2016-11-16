@@ -1,0 +1,22 @@
+<div class="modul_ershou">
+	<div class="nav">
+		<a href="#"><</a> <a href="#home">首页</a><a href="#">二手房</a><a href="#">></a><a href="#"><img src="modules/images/jing.png"></a>
+	</div>
+	<div class="ershou_daohang">
+		<div>区域 <i class="line"></i> <a href="#" class="jiao"></a></div>
+		<div>价格  <i class="line"></i> <a href="#" class="jiao"></a></div>
+		<div>户型  <i class="line"></i> <a href="#" class="jiao"></a></div>
+		<div>更多  <i class="line"></i> <a href="#" class="jiao"></a></div>
+	</div>
+	<div class="list">
+		<div class="listshow" ng-repeat="q in arr.result.list">
+			<img ng-src="{{q.img}}">
+			<div class="inner_list">
+				<p>{{q.tittle}}</p>
+				<p>{{q.location}}</p>
+				<p>{{q.details}}</p>
+				<span>{{q.price}}</span>
+			</div>
+		</div>
+	</div>
+</div>

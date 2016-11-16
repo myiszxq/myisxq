@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>newTarget</title>
+		<meta charset = "utf-8">
+		<style>
+			.header{height:80px; background:#CCC;}
+			.center{overflow:hidden; zoom:1;}
+			.main_wrapper{float:left; width:100%; margin-top:10px; margin-left:-210px;}
+			.main{height:200px; margin-left:210px; background:#999;}
+			.sidebar{float:right; width:200px; margin-top:10px; height:200px; background:#AAA;}
+			.footer{height:50px; margin-top:10px; background:#CCC; text-align: center;}
+
+		</style>
+	</head>
+	<body>
+		<!-- 语义化html：根据内容的结构化（内容语义化），选择合适的标签（代码语义化） 
+			1/有利于SEO：和搜索引擎建立良好沟通，有助于爬虫抓取更多的有效信息：爬虫依赖于标签来确定上下文和各个关键字的权重；
+			2/方便其他设备解析（如屏幕阅读器、盲人阅读器、移动设备）以意义的方式来渲染网页；
+			3/便于团队开发和维护，语义化更具可读性，是下一步网页的重要动向，遵循W3C标准的团队都遵循这个标准，可以减少差异化。
+		-->
+		<!-- 使用传统div标签标示页面结构 -->
+		<div class="header"></div>
+	    <div class="center">
+	        <div class="main_wrapper">
+	        	<div class="main"></div>
+	        </div>
+	        <div class="sidebar"></div>
+	    </div>
+  		<div class="footer"></div>
+
+  		<!-- H5语义化变迁实例 -->
+  		<nav>
+			<a href="/html/">HTML</a> |
+			<a href="/css/">CSS</a> |
+			<a href="/js/">JavaScript</a> |
+			<a href="/jquery/">jQuery</a>
+		</nav>
+		
+		<header class = "header">
+			<h3>这里是当前acticle的header</h3>
+		</header>
+		<!-- 使用h5 新增语义化标签标示 -->
+		<article class = "center">
+			<section class = "main_wrapper"><div class="main">这是section
+			</div></section>
+			<aside class = "sidebar">
+				<section>
+					<h3>aside</h3>
+					<h3>分类</h3>
+					<ul>
+						<li>归档</li>
+						<li>WDSF</li>
+						<li>归档</li>
+					</ul>
+				</section>
+			</aside>
+		</article>
+		<footer class = "footer"><h3>footer  Copyright &copy;yztc All Rights reserved</h3></footer>
+
+		<mark>milk</mark>
+</body>
+</html>
