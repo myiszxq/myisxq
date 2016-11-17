@@ -40,12 +40,12 @@ angular.module('HomeModules',[])
               }
             }
             function b(){
-              if(a < -$('.n_1')[0].offsetHeight+50){
+              if(a < -73){
                 a = 0;                
               }else{
-                a += -45 ;
+                a += -12.6 ;
               } 
-              $(".n_1").css('margin-top',a+"px")
+              $(".n_1").css('margin-top',a+"%")
             } 
             setInterval( function(){          
             s() && b()}  ,2000)

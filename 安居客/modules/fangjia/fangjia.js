@@ -1,7 +1,8 @@
 angular.module('FangModules',['BanModules','QuModules'])
 	
 	.config(function($stateProvider,$urlRouterProvider){
-          $urlRouterProvider.otherwise('.ban');
+         /* $urlRouterProvider.otherwise('.ban');*/
+          // $urlRouterProvider.when("", "/fangjia.qu");
 		      $stateProvider.state('fangjia',{
                url:'/fangjia',
                templateUrl:'./modules/fangjia/fangjia.html',

@@ -12,6 +12,9 @@
 		align-items:center;
 		background: #fff;
 	}
+	.fj img{
+		width: 100%;
+	}
  .fj .an{
  	width: 1rem;
  	height: .36rem;
@@ -265,4 +268,67 @@
 		background-size: 43px;
 		background-position: -1px 0;
 		z-index: 9;
+	}
+	.fj .fex{
+		width: 100%;
+		height: 7rem;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: rgba(0,0,0,0.7);
+		opacity: 0.6;
+		display: none;
+		z-index: 2;
+	}
+	.fj .ssss{
+		overflow: hidden;
+	}
+	.fj .ssss>div {
+		float: left;
+		opacity: 1;
+	}
+	.fj .ssss>div:first-child{
+		margin-left: 20%;
+		margin-top: 40%;
+		width: 9%;
+		height: .8rem;
+		font-size:.18rem; 
+		background: #000;
+		color: #fff;
+		opacity: 1;
+		opacity: 1!important;
+	}
+	.fj .ssss>div:last-child{
+		width: 71%;
+		font-size: .18rem;
+		background: #000;
+		color: #fff;
+		opacity: 1!important;
+	}
+	.fj .ssss>div:last-child p{
+		height: .5rem;
+		line-height: .5rem;
+		padding-left: 5px;
+		width: 100%;
+	}
+	.fj .ssss>div:last-child p span{
+		float: right;
+		margin-right: 5px;
+	}
+	.fj .ssss>div:last-child ul{
+		display: none;
+		padding: 0 5px;
+		overflow: hidden;
+	}
+	.fj .ssss>div:last-child li{
+		float: left;
+		text-align: center;
+		height: .45rem;
+		line-height: .45rem;
+		color: #fff;
+		border: 1px solid #ccc;
+		width: 32%;
+	}
+	.fj .fex .ssss{
+		margin-left: 100%;
 	}
